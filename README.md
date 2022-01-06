@@ -7,5 +7,6 @@
 ###### Данный проект является открытым. 
 ###### Сейчас проект Scalpel находится в режиме разработки. 
 
-![Alt-текст](http://ovz1.sergei-pokhodai.mzlgn.vps.myjino.ru/others/splash.png "splash") ![Alt-текст](http://ovz1.sergei-pokhodai.mzlgn.vps.myjino.ru/others/onboarding.png "Boarding") ![Alt-текст](http://ovz1.sergei-pokhodai.mzlgn.vps.myjino.ru/others/home.png "Home")
+### Превью проекта ->
 
+![Alt-текст](http://ovz1.sergei-pokhodai.mzlgn.vps.myjino.ru/others/splash.png "splash") ![Alt-текст](http://ovz1.sergei-pokhodai.mzlgn.vps.myjino.ru/others/onboarding.png "Boarding") ![Alt-текст](http://ovz1.sergei-pokhodai.mzlgn.vps.myjino.ru/others/home.png "Home") ![Alt-текст](http://ovz1.sergei-pokhodai.mzlgn.vps.myjino.ru/others/catalog.png "Catalog")
