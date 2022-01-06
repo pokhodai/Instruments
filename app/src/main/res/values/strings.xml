@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Instruments</string>
+    <!-- Main Strings -->
+    <string name="mainHome">Главная</string>
+    <string name="mainTest">Испытание</string>
+    <string name="mainFavorite">Избранное</string>
+    <string name="mainProfile">Профиль</string>
+
+    <!-- Boarding Strings -->
+    <string name="boardingTitle">Начни изучать хирургию вместе с мобильным справочником медицинских инструментов </string>
+    <string name="boardingButton">Войти</string>
+    <string name="boardingRegistration">Еще нет аккаунта? <b><u>Зарегистрироваться</u></b></string>
+
+    <!-- Login Strings -->
+    <string name="loginTitleToolbar">Вход</string>
+    <string name="loginMail">Имя пользователя или E-mail</string>
+    <string name="loginPassword">Пароль</string>
+    <string name="loginRecovery">Забыли пароль?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

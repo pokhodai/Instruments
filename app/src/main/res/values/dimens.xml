@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Dimens -->
+    <dimen name="main.bottomNavViewHeight">60dp</dimen>
+    <dimen name="main.bottomNavViewMarginHorizontal">16dp</dimen>
+    <dimen name="main.bottomNavViewMarginBottom">8dp</dimen>
+    <dimen name="main.bottomNavViewIconSize">24dp</dimen>
+    <!-- Category Dimens -->
+    <dimen name="category.viewHeight">165dp</dimen>
+    <dimen name="category.viewWight">167dp</dimen>
+    <!-- Boarding Dimens -->
+    <dimen name="boarding.doctorsMarginTop">45dp</dimen>
+    <dimen name="boarding.titleMarginTop">19dp</dimen>
+    <dimen name="boarding.titleMarginHorizontal">26dp</dimen>
+    <dimen name="boarding.buttonMarginTop">16dp</dimen>
+    <dimen name="boarding.buttonRegMarginBottom">8dp</dimen>
+
+    <!-- Login Dimens -->
+    <dimen name="login.buttonMarginTop">18dp</dimen>
+
+    <!-- Corners Dimens -->
+    <dimen name="bottomNavViewCorners">14dp</dimen>
+    <dimen name="viewCategoryCorners">16dp</dimen>
+
+    <!-- Button Dimens -->
+    <dimen name="button.marginHorizontal">16dp</dimen>
+    <dimen name="button.height">50dp</dimen>
+
+    <!-- Other Dimens -->
+    <dimen name="statusBarHeight">25dp</dimen>
+
+    <!-- TextFields Dimens -->
+    <dimen name="textFields.marginHorizontal">18dp</dimen>
+    <dimen name="textFields.marginTop">30dp</dimen>
+</resources>
