@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".views.MainFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSubscribe"
+        style="@style/OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginEnd="@dimen/main.subscribeMarginEnd"
+        android:text="@string/mainSubscribe"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewWelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewWelcome" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textViewWelcome"
+        style="@style/BlueBold18TextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/main.welcomeMarginHorizontal"
+        android:layout_marginTop="@dimen/main.welcomeMarginTop"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSubscribe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Привет, Ксения!" />
+
+    <TextView
+        android:id="@+id/textViewSubtitle"
+        style="@style/BlackNormal14TextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main.welcomeMarginHorizontal"
+        android:layout_marginTop="@dimen/main.subtitleMarginTop"
+        android:layout_marginEnd="@dimen/main.subscribeMarginEnd"
+        android:text="@string/mainSubtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWelcome" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCatalog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/main.catalogPaddingTop"
+        android:splitMotionEvents="false"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubtitle"
+        app:spanCount="2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

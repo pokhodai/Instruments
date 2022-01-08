@@ -5,6 +5,19 @@
     <dimen name="main.bottomNavViewMarginHorizontal">16dp</dimen>
     <dimen name="main.bottomNavViewMarginBottom">8dp</dimen>
     <dimen name="main.bottomNavViewIconSize">24dp</dimen>
+    <dimen name="main.viewIconMarginTop">16dp</dimen>
+    <dimen name="main.viewIconMarginStart">12dp</dimen>
+    <dimen name="main.viewArrowMarginTop">15dp</dimen>
+    <dimen name="main.viewArrowMarginEnd">14dp</dimen>
+    <dimen name="main.viewNameMarginHorizontal">12dp</dimen>
+    <dimen name="main.viewNumbersMarginBottom">10dp</dimen>
+    <dimen name="main.welcomeMarginHorizontal">21dp</dimen>
+    <dimen name="main.subscribeMarginEnd">16dp</dimen>
+    <dimen name="main.welcomeMarginTop">10dp</dimen>
+    <dimen name="main.subtitleMarginTop">21dp</dimen>
+    <dimen name="main.catalogPaddingTop">16dp</dimen>
+    <dimen name="main.viewMarginStart">16dp</dimen>
+    <dimen name="main.viewMarginBottom">16dp</dimen>
     <!-- Category Dimens -->
     <dimen name="category.viewHeight">165dp</dimen>
     <dimen name="category.viewWight">167dp</dimen>
@@ -14,10 +27,44 @@
     <dimen name="boarding.titleMarginHorizontal">26dp</dimen>
     <dimen name="boarding.buttonMarginTop">16dp</dimen>
     <dimen name="boarding.buttonRegMarginBottom">8dp</dimen>
-
+    <!-- Test Dimens -->
+    <dimen name="test.titleMarginHorizontal">21dp</dimen>
+    <dimen name="test.titleMarginTop">10dp</dimen>
+    <dimen name="test.subTitleMarginHorizontal">21dp</dimen>
+    <dimen name="test.subTitleMarginTop">29dp</dimen>
+    <dimen name="test.viewLevelsIconMarginStart">29dp</dimen>
+    <dimen name="test.viewLevelsNameMarginHorizontal">17dp</dimen>
+    <dimen name="test.viewLevelsNameMarginTop">18dp</dimen>
+    <dimen name="test.viewLevelsArrowMarginEnd">23dp</dimen>
+    <dimen name="test.viewLevelsArrowMarginBottom">9dp</dimen>
+    <dimen name="test.viewLevelsTextChangeCategoryMarginEnd">3dp</dimen>
+    <dimen name="test.viewLevelsHorizontalPadding">16dp</dimen>
+    <dimen name="test.levelsPaddingTop">16dp</dimen>
+    <dimen name="test.viewLevelsMarginBottom">24dp</dimen>
+    <!-- Favorites Dimens -->
+    <dimen name="favorites.viewButtonHeight">52dp</dimen>
+    <dimen name="favorites.viewButtonMarginHorizontal">16dp</dimen>
+    <dimen name="favorites.viewButtonMarginVertical">26dp</dimen>
+    <dimen name="favorites.viewCategoryHeight">246dp</dimen>
+    <dimen name="favorites.viewCategoryMarginHorizontal">16dp</dimen>
+    <dimen name="favorites.viewCategoryMarginBottom">16dp</dimen>
+    <dimen name="favorites.viewCategoryLikeMarginTop">17dp</dimen>
+    <dimen name="favorites.viewCategoryLikeMarginEnd">9dp</dimen>
+    <dimen name="favorites.viewCategoryNameMarginTop">12dp</dimen>
+    <dimen name="favorites.viewCategoryNameMarginHorizontal">41dp</dimen>
+    <dimen name="favorites.viewCategoryPictureMarginTop">17dp</dimen>
+    <dimen name="favorites.viewCategoryPictureHeight">131dp</dimen>
+    <dimen name="favorites.viewCategoryPictureWight">131dp</dimen>
+    <dimen name="favorites.viewCategoryDividerMarginStart">42dp</dimen>
+    <dimen name="favorites.viewCategoryDescriptionMarginStart">8dp</dimen>
+    <dimen name="favorites.viewCategoryDescriptionMarginEnd">41dp</dimen>
+    <dimen name="favorites.viewCategoryDescriptionMarginBottom">22dp</dimen>
+    <dimen name="favorites.categoriesPaddingBottom">80dp</dimen>
     <!-- Login Dimens -->
     <dimen name="login.buttonMarginTop">18dp</dimen>
 
+    <!-- Registration Dimens -->
+    <dimen name="registration.buttonMarginTop">40dp</dimen>
     <!-- Corners Dimens -->
     <dimen name="bottomNavViewCorners">14dp</dimen>
     <dimen name="viewCategoryCorners">16dp</dimen>
@@ -32,4 +79,5 @@
     <!-- TextFields Dimens -->
     <dimen name="textFields.marginHorizontal">18dp</dimen>
     <dimen name="textFields.marginTop">30dp</dimen>
+
 </resources>

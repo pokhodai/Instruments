@@ -1,10 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/category.viewWight"
-    android:layout_height="@dimen/category.viewHeight"
-    app:cardElevation="0dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="@dimen/viewCategoryCorners">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="@dimen/favorites.viewCategoryMarginHorizontal"
+    android:layout_marginBottom="@dimen/favorites.viewCategoryMarginBottom"
+    app:cardCornerRadius="20dp">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButtonLike"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="@dimen/favorites.viewCategoryLikeMarginTop"
+            android:layout_marginEnd="@dimen/favorites.viewCategoryLikeMarginEnd"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            app:iconTint="@color/blue_5B67CA"
+            tools:icon="@drawable/ic_like_active"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            style="@style/BlueBold16TextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="Лигатурная игла Купера"
+            android:layout_marginHorizontal="@dimen/favorites.viewCategoryNameMarginHorizontal"
+            android:layout_marginTop="@dimen/favorites.viewCategoryNameMarginTop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewPicture"
+            android:layout_width="@dimen/favorites.viewCategoryPictureWight"
+            android:layout_height="@dimen/favorites.viewCategoryPictureHeight"
+            android:layout_marginTop="@dimen/favorites.viewCategoryPictureMarginTop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            style="@style/BlackNormal14TextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/favorites.viewCategoryDescriptionMarginStart"
+            android:layout_marginEnd="@dimen/favorites.viewCategoryDescriptionMarginEnd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="@dimen/favorites.viewCategoryDescriptionMarginBottom"
+            app:layout_constraintStart_toEndOf="@+id/viewDividerDescription"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPicture"
+            tools:text="Хирургический инструмент для проведения шовного материала под кровеносные сосуды" />
+
+        <View
+            android:id="@+id/viewDividerDescription"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/favorites.viewCategoryDividerMarginStart"
+            android:background="@color/blue_5B67CA"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textViewDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </com.google.android.material.card.MaterialCardView>

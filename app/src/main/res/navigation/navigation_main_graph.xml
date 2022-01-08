@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_main_graph"
     tools:ignore="InvalidNavigation"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/favoritesFragment">
 
     <fragment
         android:id="@+id/mainFragment"
@@ -23,4 +23,22 @@
         android:name="com.decorator1889.instruments.views.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.decorator1889.instruments.views.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" />
+
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.decorator1889.instruments.views.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.decorator1889.instruments.views.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
 </navigation>

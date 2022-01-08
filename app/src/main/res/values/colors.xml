@@ -7,6 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
 
+    <color name="backgroundDefaultShimmer">#f6f3f9</color>
+    <color name="shimmer">#ffffff</color>
+
     <color name="white">#FFFFFFFF</color>
     <color name="mainBackground">#E5E5E5</color>
     <color name="lightBlue">#B2B7E4</color>
@@ -15,8 +18,10 @@
     <color name="categorySurgeryColor">#B07DC8E7</color>
     
     <color name="black_1E2454">#1E2454</color>
+    <color name="black_801E2454">#801E2454</color>
     <color name="gray_D2D3D6">#D2D3D6</color>
     <color name="blue_5B67CA">#5B67CA</color>
+    <color name="blue_7EC3DF">#7EC3DF</color>
     <color name="hint_B2B7E4">#B2B7E4</color>
     <color name="red_E77D7D">#E77D7D</color>
 </resources>

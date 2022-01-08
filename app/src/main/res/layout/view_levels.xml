@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/test.viewLevelsMarginBottom"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="0dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardViewRoot"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewBgr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bgr_easy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imageViewIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/test.viewLevelsIconMarginStart"
+                android:src="@drawable/ic_easy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imageViewBgr"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                style="@style/BlackNormal16TextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/test.viewLevelsNameMarginHorizontal"
+                android:layout_marginTop="@dimen/test.viewLevelsNameMarginTop"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewBgr"
+                app:layout_constraintStart_toEndOf="@+id/imageViewIcon"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Легкий уровень" />
+
+            <TextView
+                android:id="@+id/textViewNumbers"
+                style="@style/BaseBlackNormal50_Opacity14TextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/test.viewLevelsNameMarginHorizontal"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewBgr"
+                app:layout_constraintStart_toEndOf="@+id/imageViewIcon"
+                app:layout_constraintTop_toBottomOf="@+id/textViewName"
+                tools:text="15 вопросов" />
+
+            <ImageView
+                android:id="@+id/imageViewArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/test.viewLevelsArrowMarginBottom"
+                android:layout_marginBottom="@dimen/test.viewLevelsArrowMarginBottom"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewBgr"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/ic_arrow_easy" />
+
+            <TextView
+                android:id="@+id/textViewChangeCategory"
+                style="@style/TextStyleLevelsChangeCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/test.viewLevelsTextChangeCategoryMarginEnd"
+                android:text="@string/testChangeCategory"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewArrow"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewArrow"
+                app:layout_constraintTop_toTopOf="@+id/imageViewArrow"
+                app:layout_constraintVertical_bias="0.333"
+                tools:textColor="@color/blue_5B67CA" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

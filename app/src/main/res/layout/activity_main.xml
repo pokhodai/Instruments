@@ -37,7 +37,6 @@
         android:layout_height="@dimen/main.bottomNavViewHeight"
         android:layout_marginHorizontal="@dimen/main.bottomNavViewMarginHorizontal"
         android:layout_marginBottom="@dimen/main.bottomNavViewMarginBottom"
-        android:visibility="gone"
         app:cardCornerRadius="@dimen/bottomNavViewCorners"
         app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="@+id/frameLayoutContainer"

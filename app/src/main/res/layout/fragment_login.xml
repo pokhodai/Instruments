@@ -55,7 +55,6 @@
         android:layout_marginHorizontal="@dimen/textFields.marginHorizontal"
         android:paddingStart="-13dp"
         app:boxBackgroundMode="filled"
-        android:paddingEnd="-10dp"
         app:endIconMode="password_toggle"
         app:endIconTint="@color/bgr_input"
         android:layout_marginTop="@dimen/textFields.marginTop"
